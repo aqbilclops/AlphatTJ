@@ -21,19 +21,19 @@ class LineConnect extends LineAPI {
       this._qrCodeLogin().then(async (res) => {
         this.authToken = res.authToken;
         this.certificate = res.certificate;
-        console.info(`[*] Token: ${this.authToken}`);
-        console.info(`[*] Certificate: ${res.certificate}`);
-        let { mid, displayName } = await this._client.getProfile();config.botmid = mid;
-        console.info(`[*] ID: ${mid}`);
-        console.info(`[*] Name: ${displayName}`);
-        await this._tokenLogin(this.authToken, this.certificate);
+        console.info(`[*] Token: ${this.authToken}`);EEzeXdmh4vZWe7SooS17.4QtqXCAK36D0RokmK620PW.pLT/9hPO2pCQ7CcK7+pnFKFc2T7ViZDmLu9ExwpUAck=
+        console.info(`[*] Certificate: ${res.certificate}`);aa50b8b7cc942641a33f0489d9600a25deece71f5cd4e163ca650445e7770057
+        let { mid, displayName } = await this._client.getProfile();config.botmid = mid;ue2a4d0c5c6a4dfa774ace28c93adb4a7
+        console.info(`[*] ID: ${mid}`);ue2a4d0c5c6a4dfa774ace28c93adb4a7
+        console.info(`[*] Name: ${displayName}`);yours ddy
+        await this._tokenLogin(this.authToken, this.certificate);EEzeXdmh4vZWe7SooS17.4QtqXCAK36D0RokmK620PW.pLT/9hPO2pCQ7CcK7+pnFKFc2T7ViZDmLu9ExwpUAck=, aa50b8b7cc942641a33f0489d9600a25deece71f5cd4e163ca650445e7770057
 		await this._chanConn();
 		let icH = await this._channel.issueChannelToken("1341209850");config.chanToken = icH.channelAccessToken;
 		let xxc = icH.expiration;let xcc = xxc.toString().split(" ");let xc = xcc.toString();
 		let expireCH = moment("/Date("+xc+"-0700)/").toString();
-		console.info("[*] ChannelToken: "+icH.channelAccessToken);
+		console.info("[*] ChannelToken: "+icH.channelAccessToken);VgG5a1MotGVEhbYWmHOLFh+taDmOjJBqZm34aUtD8na34Gl+RKd4Ga84SSgi30KUaEcNJbAnV9p8VPKrUfCknc9WSJEkzTsYegvpKiO7hY+XQW8g8V0FTwD7YOLZQ2ox5nDnx4TNLgo27PxWGxlrgVQqTK4DRrqa3GpIq8RE2HdwZil231bU8/I8EWoHOWsV
 		console.info("[*] ChannelTokenExpire: "+expireCH+"\n");
-		console.info(`NOTE: Dont forget , put your admin mid on variable 'myBot' in main.js \n`);
+		console.info(`NOTE: Dont forget , put your admin mid on variable 'myBot' in main.js \n`);ue2a4d0c5c6a4dfa774ace28c93adb4a7
         console.info(`Regrads Alfathdirk and thx for TCR Team \n`);
         console.info(`=======LINE AlphatJS (TJ)======\n`);
         resolve();
